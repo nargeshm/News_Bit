@@ -8,6 +8,7 @@ namespace NB.Core.Entities
     {
         public int MediaId { get; set; }
         public string Path { get; set; }
+        public string Order { get; set; }
         public int NewsId { get; set; }
         public News News { get; set; }
     }

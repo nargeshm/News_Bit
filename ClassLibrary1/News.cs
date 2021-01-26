@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace NB.Core.Entities
 {
@@ -6,9 +7,12 @@ namespace NB.Core.Entities
     {
         public int NewsId { get; set; }
         public string NewsTitle { get; set; }
-        public string litleTitle { get; set; }
+        public string LitleTitle { get; set; }
+        public string NewsSummary { get; set; }
         public string NewsText { get; set; }
         public string Source { get; set; }
+        public int ReadCount { get; set; }
+
         public DateTime NewsReleasetime { get; set; }
         public int AuthorId { get; set; }
         public Author Author { get; set; }
